@@ -30,3 +30,9 @@
 *.exe
 *.out
 *.app
+
+.vs
+AgentNetConsole/AgentNetConsole/x64
+AgentNetConsole/x64
+*.vcxproj.user
+AgentNetTerm/out
