@@ -80,5 +80,9 @@ This project is licensed under the MIT License - see the [LICENSE.md](LICENSE.md
 ## Acknowledgments
 
 * Tonic-AI
-* MDupoint
-* DeadSg
+
+Please cite this project as:
+
+```
+Rawson, K. (2024). AgentNet: An Innovative AI Framework for Gaming. [https://github.com/K-Rawson/AgentNet](^3^)
+```
