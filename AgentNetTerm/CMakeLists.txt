@@ -11,8 +11,14 @@ endif()
 
 project ("AgentNetTerm")
 
+# Specify the include directory
+include_directories(${PROJECT_SOURCE_DIR}/include)
+
 # Add source to this project's executable.
-add_executable (AgentNetTerm "AgentNetTerm.cpp" "AgentNetTerm.h")
+add_executable (AgentNetTerm "src/AgentNetTerm.cpp")
+
+# If you have more .cpp files, add them here
+# add_executable (AgentNetTerm "src/AgentNetTerm.cpp" "src/AnotherFile.cpp")
 
 if (CMAKE_VERSION VERSION_GREATER 3.12)
   set_property(TARGET AgentNetTerm PROPERTY CXX_STANDARD 20)
