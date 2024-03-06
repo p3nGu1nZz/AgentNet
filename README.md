@@ -19,7 +19,7 @@ Before you begin, ensure you have the following installed:
 To build this project from source, you will need access to the Llama sources. Follow these steps to download them:
 1. Visit the Llama GitHub repository and follow the instructions to register and accept the license¹.
 2. Once approved, you will receive a custom URL via email from Meta.
-3. Clone the Llama repository and run the `download.sh` script with the custom URL provided.
+3. Clone the Llama repository and run the `download.sh` script with the custom URL provided. (Requires Linux or MacOS)
 
 ### Installation
 
